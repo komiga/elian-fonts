@@ -14,13 +14,14 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 637 1380666656 8955201]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307767741
-ModificationTime: 1307846669
+ModificationTime: 1307847716
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -56,7 +57,7 @@ Grid
  2000 532 l 0
 EndSplineSet
 TeXData: 1 0 0 1048576 524288 349525 0 1048576 349525 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 94
+BeginChars: 256 95
 
 StartChar: exclam
 Encoding: 33 33 0
@@ -1650,7 +1651,7 @@ StartChar: quotedbl
 Encoding: 34 34 65
 Width: 750
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 450 250<175 325 425 575>
 VStem: 175 150<450 700> 425 150<450 700>
 LayerCount: 2
@@ -1658,14 +1659,14 @@ Fore
 SplineSet
 425 700 m 25
  575 700 l 25
- 575 450 l 29
- 425 450 l 29
+ 575 450 l 25
+ 425 450 l 25
  425 700 l 25
-175 700 m 25
- 325 700 l 25
+175 700 m 29
+ 325 700 l 29
  325 450 l 29
  175 450 l 29
- 175 700 l 25
+ 175 700 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -1674,17 +1675,17 @@ StartChar: quotesingle
 Encoding: 39 39 66
 Width: 750
 VWidth: 0
-Flags: HW
-HStem: 500 200<300 450>
-VStem: 300 150<500 700>
+Flags: W
+HStem: 450 250<300 450>
+VStem: 300 150<450 700>
 LayerCount: 2
 Fore
 SplineSet
-300 700 m 25
- 450 700 l 25
+300 700 m 29
+ 450 700 l 29
  450 450 l 29
  300 450 l 29
- 300 700 l 25
+ 300 700 l 29
 EndSplineSet
 Validated: 1
 EndChar
@@ -2380,6 +2381,24 @@ SplineSet
  525 700 l 21xf0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: grave
+Encoding: 96 96 94
+Width: 750
+VWidth: 0
+Flags: WO
+HStem: 450 250<350 400>
+VStem: 250 250
+LayerCount: 2
+Fore
+SplineSet
+250 700 m 29
+ 400 700 l 29
+ 500 450 l 29
+ 350 450 l 29
+ 250 700 l 29
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
