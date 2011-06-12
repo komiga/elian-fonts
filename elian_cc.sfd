@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307767741
-ModificationTime: 1307847716
+ModificationTime: 1307884335
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -1847,40 +1847,40 @@ EndChar
 
 StartChar: percent
 Encoding: 37 37 71
-Width: 1000
+Width: 750
 VWidth: 0
-HStem: 0 75<725 850> 200 75<725 850> 425 75<150 275> 625 75<150 275>
-VStem: 75 75<500 625> 275 75<500 625> 425 150<0 700> 650 75<75 200> 850 75<75 200>
+Flags: WO
+HStem: 0 75<550 650> 175 75<550 650> 450 75<100 200> 625 75<100 200>
+VStem: 25 75<525 625> 200 75<525 625> 325 100<0 700> 475 75<75 175> 650 75<75 175>
 LayerCount: 2
 Fore
 SplineSet
-275 625 m 25
- 150 625 l 25
- 150 500 l 25
- 275 500 l 25
- 275 625 l 25
-75 700 m 25
- 350 700 l 25
- 350 425 l 25
- 75 425 l 25
- 75 700 l 25
-850 200 m 29
- 725 200 l 29
- 725 75 l 29
- 850 75 l 29
- 850 200 l 29
-650 275 m 29
- 925 275 l 29
- 925 0 l 29
- 650 0 l 29
- 650 275 l 29
-425 0 m 25
- 425 700 l 25
- 575 700 l 25
- 575 0 l 25
- 425 0 l 25
+200 625 m 29
+ 100 625 l 29
+ 100 525 l 29
+ 200 525 l 29
+ 200 625 l 29
+25 700 m 29
+ 275 700 l 29
+ 275 450 l 29
+ 25 450 l 29
+ 25 700 l 29
+650 175 m 29
+ 550 175 l 29
+ 550 75 l 29
+ 650 75 l 29
+ 650 175 l 29
+475 250 m 29
+ 725 250 l 29
+ 725 0 l 29
+ 475 0 l 29
+ 475 250 l 29
+325 0 m 29
+ 325 700 l 29
+ 425 700 l 21
+ 425 0 l 13
+ 325 0 l 29
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -2387,7 +2387,7 @@ StartChar: grave
 Encoding: 96 96 94
 Width: 750
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 450 250<350 400>
 VStem: 250 250
 LayerCount: 2
