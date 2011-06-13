@@ -3,6 +3,7 @@
 
 * That damn ampersand
 * Glyph spacing (elian_cc is /not/ monospaced: the dimensions are 750x700; it should probably be refactored to use a square glyph size)
+NOTE: Correct em scaling is desc=w/5 asc=w-desc (e.g. w=750: desc=150, asc=600), thus the current sizing is incorrect
 
 ## Standard-extended ##
 
