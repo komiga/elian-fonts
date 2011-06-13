@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307767741
-ModificationTime: 1307884335
+ModificationTime: 1307998561
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -1372,24 +1372,23 @@ StartChar: one
 Encoding: 49 49 55
 Width: 750
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 150<75 300 451 676> 550 150<75 300>
 VStem: 300 151<150 550>
 LayerCount: 2
 Fore
 SplineSet
-75 0 m 17
+450 700 m 25
+ 450 150 l 25
+ 675 150 l 25
+ 675 0 l 25
+ 75 0 l 17
  75 150 l 9
  300 150 l 25
- 300 550 l 25
+ 300 550 l 29
  75 550 l 25
  75 700 l 25
- 225 700 l 25
- 451 700 l 25
- 451 150 l 25
- 676 150 l 29
- 676 0 l 29
- 75 0 l 17
+ 450 700 l 25
 EndSplineSet
 Validated: 1
 EndChar
@@ -1849,7 +1848,7 @@ StartChar: percent
 Encoding: 37 37 71
 Width: 750
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 0 75<550 650> 175 75<550 650> 450 75<100 200> 625 75<100 200>
 VStem: 25 75<525 625> 200 75<525 625> 325 100<0 700> 475 75<75 175> 650 75<75 175>
 LayerCount: 2
@@ -1881,6 +1880,7 @@ SplineSet
  425 0 l 13
  325 0 l 29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -2399,6 +2399,7 @@ SplineSet
  350 450 l 29
  250 700 l 29
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
