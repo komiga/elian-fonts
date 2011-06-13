@@ -7,5 +7,3 @@ NOTE: Correct em scaling is desc=w/5 asc=w-desc (e.g. w=750: desc=150, asc=600),
 
 ## Standard-extended ##
 
-* Clone font into elian_cc_ext, replace numerals (G3.3 for 0, and G4+LM for 1-9)
-
