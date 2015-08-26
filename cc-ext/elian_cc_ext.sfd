@@ -3,7 +3,7 @@ FontName: elian_cc_ext
 FullName: Elian (CC, numerals)
 FamilyName: Elian Extended
 Weight: Regular
-Copyright: Copyright Tim Howard (see CONTRIBUTORS), C.C. Elian (script author);
+Copyright: Copyright plash <plash@komiga.com>, C.C. Elian (script author)
 UComments: "2011-6-11: Created." 
 Version: 001.000
 ItalicAngle: 0
@@ -14,7 +14,6 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 637 1380666656 8955201]
 FSType: 0
 OS2Version: 0

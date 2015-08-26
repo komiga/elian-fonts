@@ -3,7 +3,7 @@ FontName: elian_cc_mono
 FullName: Elian (CC, Monospace)
 FamilyName: Elian Monospace
 Weight: Regular
-Copyright: Copyright Tim Howard (see CONTRIBUTORS), C.C. Elian (script author);
+Copyright: Copyright plash <plash@komiga.com>, C.C. Elian (script author)
 UComments: "2011-6-11: Created." 
 Version: 001.000
 ItalicAngle: 0
@@ -14,14 +14,13 @@ Descent: 200
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 637 1380666656 8955201]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307767741
-ModificationTime: 1308378283
+ModificationTime: 1440615694
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -41,6 +40,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 
 Encoding: win
@@ -50,6 +50,8 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 32 8
+BeginPrivate: 0
+EndPrivate
 Grid
 -1000 706 m 0
  2000 706 l 0
